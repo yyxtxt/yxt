@@ -36,7 +36,7 @@ const routes = [
 					header:Header,
 				},
 				meta:{
-					title:'书城'
+					title:'111111111'
 				},
 			},
 			{
