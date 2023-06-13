@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/shu/(.*)",
+      "destination": "/api/proxy"
+    },
+    {
+      "source": "/http/(.*)",
+      "destination": "/api/proxy1"
+    }
+  ]
+}
+
