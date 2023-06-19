@@ -84,7 +84,6 @@
 			}
 		}
 	}
-	// meta
 </script>
 
 <style scoped>
