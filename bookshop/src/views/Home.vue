@@ -48,9 +48,9 @@
 		methods:{
 			httpAll(){
 				this.$axios.all([
-					this.$axios.get('/category'),
-					this.$axios.get('/book/hot'),
-					this.$axios.get('/book/new'),
+					this.$axios.get('/api/category'),
+					this.$axios.get('/api/book/hot'),
+					this.$axios.get('/api/book/new'),
 				]).then( (res)=>{
 					console.log(res)
 					if( res[0].status==200&& res[0].status==200&&res[0].status==200){
