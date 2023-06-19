@@ -3,7 +3,7 @@
 		<div v-for="item in axiosNewBookList">
 			<a :href="`/book/${item.id}`" class="headerxs-nr">
 			<div>
-				<img :src="item.imgUrl" >
+				<img :src="'/api/'+item.imgUrl" >
 			</div>
 			<div>
 				<p>《{{item.title}}》</p>
