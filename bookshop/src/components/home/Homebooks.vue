@@ -5,7 +5,7 @@
 			<div v-for=" item in pack" class="c">
 				
 			<a :href="`/book/${item.id}`" class="cc">
-			<img :src="item.imgUrl" />
+			<img :src="'/api'+item.imgUrl" />
 			<p>{{item.title}}</p>
 			<span style="font-weight: bold;">
 			￥{{(item.price*item.discount).toFixed(2)}} </span><span>￥{{item.price.toFixed(2)}}</span>
