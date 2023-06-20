@@ -4,7 +4,7 @@
 	   <div class="fenlei">
 			<div class="tu">
 				<a :href="`/book/${item.id}`">
-					<img :src="item.imgUrl" />
+					<img :src="'/api'+item.imgUrl" />
 				</a>
 			</div>
 			<div class="txt">
