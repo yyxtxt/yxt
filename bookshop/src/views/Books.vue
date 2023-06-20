@@ -56,7 +56,7 @@
 		methods:{
 			setUrls(path){
 				let url;
-				if(path.indexOf('/category') !=-1){
+				if(path.indexOf('/api/category') !=-1){
 					url = '/api/api/book' + path
 				}else{
 					url = `${path}&pageSize=${this.pageSize}&pageNum=${this.pageNum}`
