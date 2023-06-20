@@ -51,7 +51,7 @@
 		beforeRouteEnter( to , from ,next){
 			console.log(to.fullPath)
 			next( (vm)=>{
-				vm.dan(to.fullPath)
+				vm.dan('/api'+to.fullPath)
 				vm.ran('/api'+to.fullPath+'/comment')
 			})
 		},
