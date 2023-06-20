@@ -3,7 +3,7 @@
     <el-table :data="cartlist"  style="width: 100%; text-align: center;">
 	  <el-table-column  prop=""  label=""  width="400" >
 		 <template slot-scope="item">
-			 <img :src="item.row.imgUrl" />
+			 <img :src="'/api'+item.row.imgUrl" />
 		 </template>
 	  </el-table-column>
       <el-table-column  prop="title"  label="商品名称"  width="350">
