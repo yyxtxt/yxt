@@ -29,7 +29,7 @@
 		methods:{
 			httpAll(){
 				this.$axios.all([
-					this.$axios.get('/api/api/book/new')
+					this.$axios.get('/api/book/new')
 				]).then( (res)=>{
 					if(res[0].status==200){
 						this.axiosNewBookList = res[0].data
