@@ -1,7 +1,7 @@
 <template>
 	<div class="headerxs">
 		<div v-for="item in axiosNewBookList">
-			<a :href="`/api/book/${item.id}`" class="headerxs-nr">
+			<a :href="`/book/${item.id}`" class="headerxs-nr">
 			<div>
 				<img :src="'/api/'+item.imgUrl" >
 			</div>
