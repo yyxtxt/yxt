@@ -27,7 +27,7 @@
 		},
 		methods:{
 			http(){
-				this.$axios.get('/category').then( (res)=>{
+				this.$axios.get('/api/category').then( (res)=>{
 					if( res.status === 200){
 						this.loadBool = false;
 						this.list = res.data;
