@@ -59,7 +59,7 @@
 				if(path.indexOf('/category') !=-1){
 					url = '/book' + path
 				}else{
-					url = `${path}&pageSize=${this.pageSize}&pageNum=${this.pageNum}`
+					url = `/api${path}&pageSize=${this.pageSize}&pageNum=${this.pageNum}`
 				}
 				return url
 			},
