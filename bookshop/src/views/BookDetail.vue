@@ -6,7 +6,7 @@
 			<div class="xiangqing">
 				<template v-for="item in xianqing">
 				<div class="piang">
-					<img :src="item.imgUrl" />
+					<img :src="'api'+item.imgUrl" />
 				</div>
 				<div class="txt">
 					<h1>{{item.title}}</h1>
