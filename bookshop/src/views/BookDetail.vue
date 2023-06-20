@@ -52,7 +52,7 @@
 			console.log(to.fullPath)
 			next( (vm)=>{
 				vm.dan(to.fullPath)
-				vm.ran(to.fullPath+'/api/comment')
+				vm.ran(to.fullPath+'/comment')
 			})
 		},
 		methods:{
